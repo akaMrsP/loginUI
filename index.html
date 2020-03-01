@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Login UI</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="login-container">
+            <div class="active">
+                <button type="button" class="close" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <form class="login-form">
+                    <label for="username"><i class="fa fa-user-circle" aria-hidden="true"></i></label>
+                    <input type="text" id="username" name="username" placeholder="Username or email"><br/>
+                    <label for="password"><i class="fa fa-unlock" aria-hidden="true"></i></label>
+                    <input type="text" id="password" name="password" placeholder="Password"><i class="fa fa-eye" aria-hidden="true"></i>
+                    <input type="checkbox" id="remember" name="remember"><label for="remember">Remember Me</label>
+                    <button type="button" class="login" aria-label="login">LOGIN</button>
+                    <p>Register now</p>
+                    <p>Forgot password?</p>
+                    <hr>or<hr>
+                    <div class="SS-button">
+                        <label for="facebook"><i class="fab fa-facebook-square"></i></label>
+                        <a href="#" id="facebook" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">LOGIN WITH FACEBOOK</a>
+                        <label for="twitter"><i class="fab fa-twitter-square"></i></label>
+                        <a href="#" id="twitter" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">LOGIN WITH TWITTER</a>
+                        <label for="google"><i class="fab fa-google"></i></label>
+                        <a href="#" id="google" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">LOGIN WITH GOOGLE</a>
+                    </div>
+
+                    <br/>
+                </form>
+            </div>
+            <img src="./seeds-641520__340.webp"/>
+        </div>
+    </div>
+</body>
+</html>
