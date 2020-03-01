@@ -11,7 +11,6 @@ body {
     background-color: ivory;
     font-family: sans-serif;
     margin: 0;
-
 }
 
 .wrapper {
@@ -19,10 +18,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: space-between;
     width: 100%;
 }
 
-.login-container {
+.splash {
     background-color: white;
     border-radius: 4px;
     box-shadow: 1px 1px 10px 1px #EEEEE0;
@@ -30,34 +30,24 @@ body {
     flex: 1, 1, 453px;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: space-between;
     margin: 10%;
     max-width: 906px;
+    width: 80vw;
 }
 
-.button {
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 15px 5px;
+}
+
+.close {
+    justify-self: flex-start;
+}
+
+img {
+    height: 100%;
     width: 100%;
+    margin: 0px -20px 0px 0px;
 }
-
-.login-form {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.SS-button {
-    display: flex;
-    flex: 1;
-}
-
-.SS-button > * {
-    border: red solid 1px;
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.facebook {
-    flex: 1;
-    width: 50%;
-}
-
