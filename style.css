@@ -23,31 +23,77 @@ body {
 }
 
 .splash {
+    border: red solid 1px;
     background-color: white;
     border-radius: 4px;
     box-shadow: 1px 1px 10px 1px #EEEEE0;
     display: flex;
-    flex: 1, 1, 453px;
+    flex: 1, 1, 423px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: space-between;
     margin: 10%;
-    max-width: 906px;
-    width: 80vw;
+    max-width: 846px;
+    width: 100%;
 }
 
 .row {
+    border: red solid 1px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 15px 5px;
 }
 
-.close {
-    justify-self: flex-start;
+
+.login {
+    border: red solid 1px;
+    align-items: space-between;
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
-img {
-    height: 100%;
+.close-btn {
+    border: red solid 1px;
+    display: flex;
+    justify-content: flex-start;
     width: 100%;
-    margin: 0px -20px 0px 0px;
+}
+
+.SS-btn {
+    border: red solid 1px;
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+
+}
+
+.icon {
+    background-color: #0062cc;
+    height: 100%;
+    margin: 0;
+}
+
+.col {
+    border: red solid 1px;
+}
+
+.login-text {
+    border: red solid 1px;
+    display: flex;
+    flex: 1;
+
+    /* flex-wrap: wrap; */
+}
+
+/* .input-box {
+    width: 100%
+} */
+
+.splash-img {
+    background-image:url('./seeds-641520__340.webp');
 }
