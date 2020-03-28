@@ -28,12 +28,12 @@ body {
     border-radius: 4px;
     box-shadow: 1px 1px 10px 1px #EEEEE0;
     display: flex;
-    flex: 1, 1, 423px;
+    flex: 1, 1, 453px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: space-between;
     margin: 10%;
-    max-width: 846px;
+    max-width: 830px;
     width: 100%;
 }
 
@@ -45,6 +45,9 @@ body {
     margin: 15px 5px;
 }
 
+/* .left-side {
+    padding: 10%;
+} */
 
 .login {
     border: red solid 1px;
@@ -53,8 +56,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    padding: 0;
-    width: 100%;
+    text-align: center;
 }
 
 .close-btn {
@@ -64,12 +66,13 @@ body {
     width: 100%;
 }
 
+
 .SS-btn {
     border: red solid 1px;
     display: flex;
     align-items: center;
     min-height: 50px;
-
+    
 }
 
 .icon {
@@ -80,20 +83,78 @@ body {
 
 .col {
     border: red solid 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .login-text {
     border: red solid 1px;
     display: flex;
     flex: 1;
-
-    /* flex-wrap: wrap; */
 }
-
-/* .input-box {
-    width: 100%
-} */
 
 .splash-img {
     background-image:url('./seeds-641520__340.webp');
+    background-size: 100%;
+    padding: 0;
+}
+
+input {
+    background-color: white;
+    border: 0;
+    border-left-width: 1px;
+    color: #d9d9d9;
+}
+
+.button-text {
+    padding: 0px;
+}
+
+.login-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-col {
+    display: flex;
+    justify-content: center;
+}
+
+.small-text {
+    font-size: 0.75rem;
+}
+
+.input-group {
+    border: #d9d9d9 solid 2px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+.input-group-text {
+    background-color: white;
+    border: 0;
+    color: #d9d9d9;
+}
+
+.input-group-append {
+    justify-self: end;
+}
+
+/* Modify based on screen size */
+@media (max-width: 1060px) {
+    .splash-img {
+        display: none;
+    }
+
+    .splash {
+        width: 50%;
+    }
+
+    .login {
+        width: 100%;
+    }
 }

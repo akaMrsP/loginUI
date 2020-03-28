@@ -12,45 +12,41 @@
     <div class="wrapper">
         <div class="splash">
             <div class="row login">
-                <div class="col">
+                <div class="col left-side">
                     <div class="row close-btn">
                         <button type="button" class="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <form class="login-form"></form>
-                        <div class="row login-text">
-                            <div class="col-1">
-                                <label for="username"><i class="fa fa-user-circle" aria-hidden="true"></i></label>
+                        <div class="input-group mb-3 login-text">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-user-circle" aria-hidden="true"></i></span>
                             </div>
-                            <div class="col">
-                                <input type="text" id="username" name="username" placeholder="Username or email">
+                            <input type="text" id="username" name="username" placeholder="Username or email">
+                        </div>
+                        <div class="input-group mb-3 login-text">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa fa-unlock" aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" id="password" name="password" placeholder="Password">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fa fa-eye" aria-hidden="true"></i></span>
                             </div>
                         </div>
-                        <div class="row login-text">
-                            <div class="col-1">
-                                <label for="password"><i class="fa fa-unlock" aria-hidden="true"></i></label>
-                            </div>
-                            <div class="col">
-                                <input type="text" id="password" name="password" placeholder="Password">
-                            </div>
-                            <div class="col-1">
-                                <i class="fa fa-eye" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
+                        <div class="row login-row">
+                            <div class="col small-text">
                                 <input type="checkbox" id="remember" name="remember"><label for="remember">Remember Me</label>
                             </div>
-                            <div class="col">
-                                <button type="button" class="login" aria-label="login">LOGIN</button>
+                            <div class="col login-col">
+                                <button type="button" class="btn btn-primary login" aria-label="login">LOGIN</button>
                             </div>
                         </div>        
                         <div class="row">
                             <div class="col">
                                 <p>Register now</p>
                             </div>
-                            <div class="col">
+                            <div class="col small-text">
                                 <p>Forgot password?</p>
                             </div>
                         </div>       
@@ -66,33 +62,33 @@
                             </div>
                         </div>      
                         <div class="row SS-btn">
-                            <div class="col-1 icon">
-                                <label for="facebook"><i class="fa fa-facebook-square"></i></label>
-                            </div>
-                            <div class="col">
-                                <a href="#" id="facebook" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">LOGIN WITH FACEBOOK</a>
+                            <div class="btn-group" role="group" aria-label="facebook button">
+                                <button type="button" class="btn btn-secondary"><i class="fa fa-facebook-square"></i></button>
+                                <button type="button" class="btn btn-secondary btn-text">
+                                    <a href="#" id="facebook" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">LOGIN WITH FACEBOOK</a>
+                                </button>
                             </div>
                         </div>    
                         <div class="row SS-btn">
-                            <div class="col-1 icon">
-                                <label for="twitter"><i class="fa fa-twitter-square"></i></label>
+                            <div class="btn-group" role="group" aria-label="twitter button">
+                                <button type="button" class="btn btn-secondary"><i class="fa fa-twitter-square"></i></button>
+                                <button type="button" class="btn btn-secondary btn-text">
+                                    <a href="#" id="twitter" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">LOGIN WITH TWITTER</a>
+                                </button>
                             </div>
-                            <div class="col">
-                                <a href="#" id="twitter" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">LOGIN WITH TWITTER</a>
-                            </div>
-                        </div>
+                        </div>    
                         <div class="row SS-btn">
-                            <div class="col-1 icon">
-                                <label for="google"><i class="fa fa-google"></i></label>
+                            <div class="btn-group" role="group" aria-label="google button">
+                                <button type="button" class="btn btn-secondary"><i class="fa fa-google"></i></button>
+                                <button type="button" class="btn btn-secondary btn-text">
+                                    <a href="#" id="google" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">LOGIN WITH GOOGLE</a>
+                                </button>
                             </div>
-                            <div class="col">
-                                <a href="#" id="google" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">LOGIN WITH GOOGLE</a>
-                            </div>
-                        </div>                      
+                        </div>        
                     </form>
                 </div>
                 <div class="col splash-img">
-                    .<!-- <img src="./seeds-641520__340.webp"/> -->
+                    <img src="./seeds-641520__340.webp"/>
                 </div>
             </div>
         </div>
